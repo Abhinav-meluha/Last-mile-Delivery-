@@ -6,7 +6,7 @@ FA-2 Project — IBCP Career-related Study in Artificial Intelligence
 **Course:** IB Career-related Programme (AI CRS)
 
 
-## 🎯 Project Objective
+##  Project Objective
 This project aims to analyze **last-mile delivery performance** using an interactive **Streamlit dashboard**.  
 The dashboard provides insights into delivery delays, agent performance, vehicle efficiency, and the impact of traffic and weather conditions.
 
@@ -14,7 +14,7 @@ By visualizing delivery data, logistics managers can identify delay patterns and
 
 
 
-## 🧩 Dataset Description
+##  Dataset Description
 The dataset used is **“Copy of Last mile Delivery Data.csv”**, containing records of delivery agents, vehicles, and environmental factors.  
 
 ### **Key Columns**
@@ -34,14 +34,14 @@ The dataset used is **“Copy of Last mile Delivery Data.csv”**, containing re
 
 
 
-## ⚙️ Features of the Dashboard
+##  Features of the Dashboard
 The dashboard includes **five interactive visualizations** built using `Plotly` and `Streamlit`.
 
-1. **⏳ Delay Analyzer** – Average delivery time based on *Weather* and *Traffic* conditions.  
-2. **🚗 Vehicle Comparison** – Compares delivery times across different vehicle types.  
-3. **👤 Agent Performance** – Relationship between *Agent Rating* and *Delivery Time*, grouped by *Age*.  
-4. **📍 Area Analysis** – Identifies regions with higher average delays.  
-5. **📦 Category Visualizer** – Distribution of delivery times by *Order Category*.
+1. **Delay Analyzer** – Average delivery time based on *Weather* and *Traffic* conditions.  
+2. **Vehicle Comparison** – Compares delivery times across different vehicle types.  
+3. **Agent Performance** – Relationship between *Agent Rating* and *Delivery Time*, grouped by *Age*.  
+4. **Area Analysis** – Identifies regions with higher average delays.  
+5. **Category Visualizer** – Distribution of delivery times by *Order Category*.
 
 Additional metrics:
 - Average delivery time  
@@ -50,7 +50,7 @@ Additional metrics:
 
 
 
-## 🧠 Data Processing Steps
+## Data Processing Steps
 1. **Data Cleaning** – Removed missing values, standardized column names, converted numeric types.  
 2. **Feature Engineering**  
    - Created a `late` flag → delivery_time > (mean + std)  
@@ -60,7 +60,7 @@ Additional metrics:
 
 
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Language:** Python 3  
 - **Framework:** Streamlit  
 - **Libraries:** pandas, numpy, plotly, requests  
@@ -69,7 +69,7 @@ Additional metrics:
 
 
 
-## 📋 Requirements
+##  Requirements
 All required dependencies are listed in `requirements.txt`.
 
 ```txt
